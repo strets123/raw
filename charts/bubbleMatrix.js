@@ -87,7 +87,7 @@ return $.map(Object.getOwnPropertyNames(object), function(k) { return [k, object
         .title('Dendrogram bubble matrix')
 		.description(
             "A dendrogram and Bubble Matrix combination useful for visualising multivariant categorical data <br/>Based on <a href='https://github.com/benbria/d3.chart.bubble-matrix'>https://github.com/benbria/d3.chart.bubble-matrix</a>")
-		.thumbnail("imgs/heatmap.png")
+		.thumbnail("static/raw/imgs/heatmap.png")
 		.model(tree);
 
 	var colors = chart.color()

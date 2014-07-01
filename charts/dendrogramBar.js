@@ -75,7 +75,7 @@ return $.map(Object.getOwnPropertyNames(object), function(k) { return [k, object
         .title('Dendrogram bar')
 		.description(
             "A dendrogram and bar chart combination useful for visualising multivariant categorical data")
-		.thumbnail("imgs/heatmap.png")
+		.thumbnail("static/raw/imgs/heatmap.png")
 		.model(tree);
 
 

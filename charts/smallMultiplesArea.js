@@ -43,7 +43,7 @@
 
     var chart = raw.chart()
         .title('Small Multiples (Area)')
-        .thumbnail("imgs/smallMultiples.png")
+        .thumbnail("static/raw/imgs/smallMultiples.png")
         .description("Based on <a href='http://bl.ocks.org/mbostock/9490313'>http://bl.ocks.org/mbostock/9490313</a>")
         .model(stream)
 
